@@ -40,4 +40,6 @@ jobs:
           name: helloworld
       
       - name: Run
-        run: ./helloworld
+        run: |
+          ls
+          ./helloworld
